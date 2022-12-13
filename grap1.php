@@ -7,7 +7,6 @@ $con = mysqli_connect('localhost','root','','population_db');
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
-
       function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
