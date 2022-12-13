@@ -8,7 +8,6 @@ $con = mysqli_connect('localhost','root','','population_db');
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
-
         var data = google.visualization.arrayToDataTable([
           ['years', 'values1'],
           <?php 
