@@ -1,7 +1,6 @@
 
 <?php
-$con = mysqli_connect('localhost','root','','population_db');
-    
+$con = mysqli_connect('localhost','root','','population_db');  
 ?>
 
 <html>
