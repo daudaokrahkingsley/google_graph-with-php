@@ -21,7 +21,6 @@ $con = mysqli_connect('localhost','root','','population_db');
 			 echo "['".$row['years']."',".$row['values1']."],";
 			 }
 	?>
-         
         ]);
 
         var options = {
