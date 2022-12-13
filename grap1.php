@@ -27,7 +27,6 @@ $con = mysqli_connect('localhost','root','','population_db');
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
         chart.draw(data, options);S
       }
     </script>
