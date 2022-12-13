@@ -30,6 +30,5 @@ $con = mysqli_connect('localhost','root','','population_db');
   </head>
   <body>
     <div id="piechart" style="width: 1600px; height: 750px;" ></div>
-   
   </body>
 </html>
